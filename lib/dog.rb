@@ -1,6 +1,6 @@
 class Dog
 
-  def name = (new_name)
+  def name= (new_name)
     @name = new_name
   end
 
@@ -8,7 +8,7 @@ class Dog
     return @name
   end
 
-  def breed = (brd)
+  def breed= (brd)
     @breed = brd
   end
 
